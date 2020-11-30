@@ -1,0 +1,19 @@
+name: MeClicker
+version: 1.0.0
+main: BenMenEs\MeClicker\Main
+api: 3.0.0
+
+softdepend:
+ - EconomyAPI
+ - FormAPI
+ 
+website: vk.com/benmenes
+author: BenMenEs
+
+permissions:
+  setclick.cmd:
+    default: op
+  delclick.cmd:
+    default: op
+  click.cmd:
+    default: true
